@@ -3,4 +3,5 @@ The objective of this project is to simulate a theoretical magnetic shield for a
 The whole physical study of the system is explained as follows:
 
 The magnetic shield is created using small current loops, whose magnetic field can be studied using the theory of magnetic dipoles. Once the magnetic field is defined, we just need to calculate the trajectory of charged particles inside this magnetic field, which is simply solving the differential equation obtained by applying Newton's second law to the Lorentz force, given that magnetic field. The method used to solve this differential equation is fourth order Runge-Kutta method.
+
 With this in mind, the MATLAB codes written for this purpose can be used to study the different scenarios in which such a magnetic shield could protect a hypothetical spaceship from charged particles.
